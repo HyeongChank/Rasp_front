@@ -1,0 +1,29 @@
+.setposition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part_table{
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+}
+.count_table{
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+}
+.part_table th, td{
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+}
+.count_table th, td{
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+}
+table{
+    border-collapse: collapse;
+}
