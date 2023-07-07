@@ -53,7 +53,7 @@ const Testsocket = () => {
 
   return (
     <div className='setposition'>
-      <h1>Dashboard</h1>
+      <h1>Production Board</h1>
       <p>Time : {process_time}</p>
       <div className='workingbox' style={{backgroundColor: problem ==='problem occurency' ? 'red' : 'green'}}>{problem}</div>
       <div className='part_table'>
